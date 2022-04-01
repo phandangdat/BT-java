@@ -28,10 +28,5 @@ public class main {
             arrNhanVien.add(nhanVien);
         }
          
-        System.out.println("THÔNG TIN NHÂN VIÊN");
-        for (nhanVien nv : arrNhanVien) {
-            nv.tinhLuong();
-            System.out.println(nv.toString());
-        }
     }
 }
